@@ -8,11 +8,8 @@
 /*
  A hash map is a data structure that stores a collection of elements formed by a combination of a key value and a mapped value. 
  Each key value acts as a unique identifier for the element, while the mapped value is the content associated with this key. This is often referred to as a key-value pair.
+ Note: A hash map cannot contain elements with duplicate keys. If the initializer list contains elements with duplicate keys, only the first element will be kept.
 */
-
-// Note: A hash map cannot contain elements with duplicate keys. If the initializer list contains elements with duplicate keys, only the first element will be kept.
-
-
 
 int main() {
     
